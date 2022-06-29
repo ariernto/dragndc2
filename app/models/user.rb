@@ -1,5 +1,6 @@
 class User < ApplicationRecord
     has_secure_password
+    has_many :characters, dependent: :destroy
 
     validates :password, length: { minimum: 6 }
     validates :username, presence: true, uniqueness: true
