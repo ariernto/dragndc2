@@ -1,4 +1,4 @@
-import Home from './screens/Home';
+import Home from './screens/Home/Home';
 import './App.css';
 import {Routes, Route} from 'react-router-dom'
 
