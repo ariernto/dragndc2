@@ -1,6 +1,20 @@
 #Logo {
     display: inline-flexbox;
-    width: 250px;
+    width: 150px;
     margin-top: 20px;
     margin-left: -600px;
+    margin-bottom: 0;
+}
+
+.Top {
+    background-color: black;
+}
+
+.CC {
+    color: aliceblue;
+    display: inline-flexbox;
+    position: absolute;
+    left: 210px;
+    top: 52px;
+
 }
